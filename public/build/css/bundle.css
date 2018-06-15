@@ -1,0 +1,58 @@
+.header-section .bar-design {
+  background-color: #68509f;
+  color: #fff;
+  min-height: 20vh; }
+.user-box {
+  padding: 10px; }
+
+.password-box {
+  padding: 10px; }
+
+.associate-id {
+  padding: 10px; }
+
+.role-text {
+  padding: 10px; }
+
+.email-text {
+  padding: 10px; }
+
+.textbox-data {
+  width: 50%;
+  height: 40px;
+  padding-left: 10px; }
+
+.button-group {
+  margin-bottom: 50px; }
+
+.button-group-sign-up {
+  padding: 10px; }
+
+.button-design {
+  height: 50px;
+  cursor: pointer; }
+
+.error-warning {
+  color: red;
+  font-size: 14px; }
+.user-box {
+  padding: 10px; }
+
+.password-box {
+  padding: 10px; }
+
+.textbox-data {
+  width: 50%;
+  height: 40px;
+  padding-left: 10px; }
+
+.button-group-login {
+  padding: 10px; }
+
+.button-design {
+  height: 50px;
+  cursor: pointer; }
+
+.warning-message {
+  color: red;
+  font-size: 14px; }

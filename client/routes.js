@@ -8,13 +8,25 @@ import {
 	ReactRouter
 } from "react-router-dom";
 
-import SignUp from "./component/SignUpPage/SignUp.js";
+import Header from "./component/HeaderPage/Header.js";
+import SignUpPage from "./component/SignUpPage/SignUp.js";
+import LoginPage from "./component/LoginPage/LoginPage.js";
 
 const appRoutes = [
 	{
 		path: "/",
 		isExactPath: true,
-		component: <SignUp />
+		component: <SignUpPage />
+	},
+	{
+		path: "/sign-up",
+		isExactPath: true,
+		component: <SignUpPage />
+	},
+	{
+		path: "/login",
+		isExactPath: true,
+		component: <LoginPage />
 	}
 ];
 console.log("Came to routs...");
