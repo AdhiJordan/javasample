@@ -26823,6 +26823,7 @@ var SignUpPage = function (_Component) {
 
 				registeredObjectUser["username"] = this.state.getUserName;
 				registeredObjectUser["password"] = this.state.getPassword;
+				registeredObjectUser["email"] = this.state.getEmail;
 
 				console.log("get user here----", registeredObjectUser);
 			} else if (!this.state.getUserName && !this.state.getAssociate && !this.state.getRole && !this.state.getEmail && !this.state.getPassword) {
